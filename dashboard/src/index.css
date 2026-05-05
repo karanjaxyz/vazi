@@ -1,0 +1,32 @@
+@import "tailwindcss";
+@import url('https://fonts.googleapis.com/css2?family=DM+Serif+Display&family=Figtree:wght@300;400;500;600;700&family=Source+Code+Pro:wght@400;500&display=swap');
+
+@theme {
+  --color-bg: #0c0b09;
+  --color-bg-warm: #12110e;
+  --color-bg-card: #18170f;
+  --color-border: #2a2820;
+  --color-border-light: #3a3828;
+  --color-text: #f0ece4;
+  --color-text-secondary: #9e9888;
+  --color-text-muted: #645e50;
+  --color-accent: #e8a634;
+  --color-accent-dim: rgba(232, 166, 52, 0.08);
+  --color-accent-mid: rgba(232, 166, 52, 0.18);
+  --color-accent-glow: rgba(232, 166, 52, 0.35);
+  --color-green: #7ec87e;
+  --color-red: #d96b6b;
+
+  --font-family-sans: 'Figtree', sans-serif;
+  --font-family-serif: 'DM Serif Display', serif;
+  --font-family-mono: 'Source Code Pro', monospace;
+}
+
+@layer base {
+  body {
+    font-family: var(--font-family-sans);
+    background: var(--color-bg);
+    color: var(--color-text);
+    -webkit-font-smoothing: antialiased;
+  }
+}
